@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7676" started-at="2019-12-12T08:04:18Z" finished-at="2019-12-12T08:04:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7676" started-at="2019-12-12T08:04:18Z" finished-at="2019-12-12T08:04:26Z">
+      <class name="com.test.Login_test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.Login_test@71e7a66b]" name="setup" is-config="true" duration-ms="2932" started-at="2019-12-12T16:04:18Z" finished-at="2019-12-12T16:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login_test()[pri:0, instance:com.test.Login_test@71e7a66b]" name="login_test" duration-ms="3599" started-at="2019-12-12T16:04:21Z" finished-at="2019-12-12T16:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test -->
+        <test-method status="PASS" signature="teardowm()[pri:0, instance:com.test.Login_test@71e7a66b]" name="teardowm" is-config="true" duration-ms="1118" started-at="2019-12-12T16:04:25Z" finished-at="2019-12-12T16:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowm -->
+      </class> <!-- com.test.Login_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

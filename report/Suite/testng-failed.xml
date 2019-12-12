@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test111(failed)" preserve-order="true">
+    <classes>
+      <class name="com.test.Cunkuan_test">
+        <methods>
+          <include name="cunkuanTest"/>
+        </methods>
+      </class> <!-- com.test.Cunkuan_test -->
+      <class name="com.test.Personal_test">
+        <methods>
+          <include name="personal_test"/>
+        </methods>
+      </class> <!-- com.test.Personal_test -->
+      <class name="com.test.Qukuan_test">
+        <methods>
+          <include name="qukuan_test"/>
+        </methods>
+      </class> <!-- com.test.Qukuan_test -->
+      <class name="com.test.Login_test">
+        <methods>
+          <include name="login_test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.Login_test -->
+    </classes>
+  </test> <!-- Test111(failed) -->
+</suite> <!-- Failed suite [Suite] -->
